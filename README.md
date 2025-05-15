@@ -14,7 +14,10 @@
 
 https://github.com/user-attachments/assets/b99c3a34-f415-4be9-a789-7e78f0e56e65
 
+> [!IMPORTANT]
+> En caso de tener un antivirus, añadir la aplicacion a la lista de excepciones. De cualquier manera podes ver el video de ejemplo
 
+[Descarga el ejecutable](https://github.com/matiasDev4/ventas_diarias_app/releases/download/1.0.0/ventas.exe)
 
 # ¿Cómo funciona? ⚙️
 La aplicación permite cargar ventas de forma rápida y ordenada, con una interfaz intuitiva. Las funcionalidades principales incluyen:
