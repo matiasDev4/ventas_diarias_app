@@ -37,6 +37,11 @@ Visualización en tabla: Las ventas ingresadas se muestran en una tabla ordenada
 - Instalar las dependecias de este proyecto
   ``pip install -r requirements.txt
   ``
-- Corres el la aplicacion con:
+- Corres la aplicacion con:
   ``flet run -d -r src/main.py
   ``
+# Proximo objetivo
+- Quiero llevar esta idea un paso más allá fusionándola con una aplicación POS desarrollada completamente desde cero. Si bien actualmente existen muchas soluciones POS en el   
+  mercado, contar con una herramienta propia, personalizable y adaptada a las necesidades reales de un comercio representa un avance importante en mi trayectoria como desarrollador.
+  El objetivo es crear un sistema que pueda ajustarse tanto a comercios específicos como también escalarse y ofrecerse a distintos negocios que necesiten una solución más accesible 
+  y a medida, evitando la complejidad innecesaria de las plataformas genéricas.
