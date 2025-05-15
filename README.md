@@ -35,8 +35,8 @@ Visualización en tabla: Las ventas ingresadas se muestran en una tabla ordenada
 
 # Clonacion del repositorio
 - Instalar las dependecias de este proyecto
-  ```pip install -r requirements.txt
-  ```
+  ``pip install -r requirements.txt
+  ``
 - Corres el la aplicacion con:
-  ```flet run -d -r src/main.py
-  ```
+  ``flet run -d -r src/main.py
+  ``
