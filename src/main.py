@@ -42,17 +42,9 @@ def main(page: ft.Page):
     
         ]
     )
-    
     page.add(container)
     add_rows_table()
     total_data_sum()
-    
-
-    
-    
-    
-    
-
 
 if __name__ == '__main__':
     ft.app(
