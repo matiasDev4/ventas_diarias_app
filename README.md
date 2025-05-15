@@ -3,15 +3,40 @@
   tener que escribir cada venta en un papel y despues tener que sumar manualmente cada una era tedioso y propenso a errores
 
 # Tecnologias utilizadas 💻
-- Decidi volver a utilizar [Flet](https://flet.dev/) el framework de python para desarrollar aplicaciónes web modernas de manera rapida y facil, para poder centrarme
-  mejor en el backend de la aplicación
-- Utilice SQLite3 que viene por defecto con python, una base de datos liviana que combina bastante bien para aplicaciónes simples
-- [Pandas](https://pandas.pydata.org/) Una libreria de python muy potente para la manipulacion de datos, en esa ocación la utilice
-  para manipular la escritura y lectura de un archivo Excel
-- [xlsxwrite](https://xlsxwriter.readthedocs.io/) un modulo de python para la creación y manipulación de archivos Excel
+- [Flet](https://flet.dev/) Framework de Python para desarrollar aplicaciones web modernas de forma rápida y sencilla. Lo elegí para poder centrarme en la lógica del backend sin 
+  complicarme con el frontend.
+- Utilice SQLite3 Base de datos ligera integrada en Python. Ideal para aplicaciones simples y sin necesidad de instalar motores externos.
+- [Pandas](https://pandas.pydata.org/) Librería poderosa para manipulación y análisis de datos. En este proyecto la usé para manejar la lectura y escritura de archivos Excel.
+- [xlsxwrite](https://xlsxwriter.readthedocs.io/) Módulo especializado en la creación y edición de archivos Excel, complementando a Pandas para un mayor control sobre la         
+  exportación.
 
-# Como funciona
-- La idea principal de esta aplicación es poder cargar las ventas y verlas de manera ordenada, que sea lo mas intuitiva posible.
-  Ofreciendo las opciones de poder seleccionar la categoria de venta (Impresion, Libreria, Cigarrillos, Varios) obviamente son opciones personalizadas para esta ocación, no es nada   
-  general. Por otro lado tenes las opciones del metodo de pago (Efectivo o un cualquier medio virtual) y por ultimo el input para escribir el monto de la venta.
-  Una vez enviados esos datos, se pueden visualizar en la tabla de manera odernada con las opciones de editar o eliminar cada fila
+⚙️ ¿Cómo funciona?
+La aplicación permite cargar ventas de forma rápida y ordenada, con una interfaz intuitiva. Las funcionalidades principales incluyen:
+
+- Registro de ventas con selección de:
+
+  - Categoría: Impresión, Librería, Cigarrillos, Varios (personalizadas para este proyecto).
+
+  - Método de pago: Efectivo o medios virtuales.
+
+  - Monto de la venta.
+
+Visualización en tabla: Las ventas ingresadas se muestran en una tabla ordenada, con opciones para editar o eliminar cada fila.
+
+- Botón "Nuevo día":
+
+  - Limpia la tabla datos de la base de datos.
+
+  - Guarda los totales del día en la tabla totales.
+
+  - Exporta los datos a un archivo Excel ubicado en el Escritorio del sistema.
+  
+  - La base de datos se guarda automáticamente en el directorio APPDATA del sistema, garantizando persistencia sin intervención del usuario.
+
+# Clonacion del repositorio
+- Instalar las dependecias de este proyecto
+  ```pip install -r requirements.txt
+  ```
+- Corres el la aplicacion con:
+  ```flet run -d -r src/main.py
+  ```
