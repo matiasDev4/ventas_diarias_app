@@ -10,6 +10,12 @@
 - [xlsxwrite](https://xlsxwriter.readthedocs.io/) Módulo especializado en la creación y edición de archivos Excel, complementando a Pandas para un mayor control sobre la         
   exportación.
 
+
+
+https://github.com/user-attachments/assets/b99c3a34-f415-4be9-a789-7e78f0e56e65
+
+
+
 # ¿Cómo funciona? ⚙️
 La aplicación permite cargar ventas de forma rápida y ordenada, con una interfaz intuitiva. Las funcionalidades principales incluyen:
 
