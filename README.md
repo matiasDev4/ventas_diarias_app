@@ -21,6 +21,9 @@ La aplicación permite cargar ventas de forma rápida y ordenada, con una interf
 
   - Monto de la venta.
 
+![ventas_diarias](https://github.com/user-attachments/assets/d7877d10-9c55-4024-90b7-c51c65fa54bc)
+
+
 Visualización en tabla: Las ventas ingresadas se muestran en una tabla ordenada, con opciones para editar o eliminar cada fila.
 
 - Botón "Nuevo día":
@@ -32,6 +35,9 @@ Visualización en tabla: Las ventas ingresadas se muestran en una tabla ordenada
   - Exporta los datos a un archivo Excel ubicado en el Escritorio del sistema.
   
   - La base de datos se guarda automáticamente en el directorio APPDATA del sistema, garantizando persistencia sin intervención del usuario.
+
+  ![ventas_excel](https://github.com/user-attachments/assets/f7914601-1a65-4e80-9d78-3fcff2e5859a)
+
 
 # Clonacion del repositorio
 - Instalar las dependecias de este proyecto
